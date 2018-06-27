@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67C6454620E329DC002D1AF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6454520E329DC002D1AF7 /* AppDelegate.m */; };
+		67C6454920E329DC002D1AF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6454820E329DC002D1AF7 /* ViewController.m */; };
+		67C6454C20E329DC002D1AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C6454A20E329DC002D1AF7 /* Main.storyboard */; };
+		67C6454E20E329DE002D1AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C6454D20E329DE002D1AF7 /* Assets.xcassets */; };
+		67C6455120E329DE002D1AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C6454F20E329DE002D1AF7 /* LaunchScreen.storyboard */; };
+		67C6455420E329DE002D1AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6455320E329DE002D1AF7 /* main.m */; };
+		67C6455E20E329DE002D1AF7 /* CYTabbarButtonAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6455D20E329DE002D1AF7 /* CYTabbarButtonAnimationTests.m */; };
+		67C6456920E329DE002D1AF7 /* CYTabbarButtonAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6456820E329DE002D1AF7 /* CYTabbarButtonAnimationUITests.m */; };
+		67C6457B20E32A6D002D1AF7 /* CYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6457A20E32A6D002D1AF7 /* CYTabBarViewController.m */; };
+		67C6457E20E32AD4002D1AF7 /* CYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6457D20E32AD4002D1AF7 /* CYNavigationViewController.m */; };
+		67C6458120E32B66002D1AF7 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6457F20E32B66002D1AF7 /* UIImage+Image.m */; };
+		67C6458420E33ADB002D1AF7 /* UITabBarController+CYTabBarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6458320E33ADB002D1AF7 /* UITabBarController+CYTabBarAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67C6455A20E329DE002D1AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C6453920E329DC002D1AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C6454020E329DC002D1AF7;
+			remoteInfo = CYTabbarButtonAnimation;
+		};
+		67C6456520E329DE002D1AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C6453920E329DC002D1AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C6454020E329DC002D1AF7;
+			remoteInfo = CYTabbarButtonAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67C6454120E329DC002D1AF7 /* CYTabbarButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYTabbarButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C6454420E329DC002D1AF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67C6454520E329DC002D1AF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67C6454720E329DC002D1AF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67C6454820E329DC002D1AF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67C6454B20E329DC002D1AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67C6454D20E329DE002D1AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67C6455020E329DE002D1AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67C6455220E329DE002D1AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C6455320E329DE002D1AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67C6455920E329DE002D1AF7 /* CYTabbarButtonAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYTabbarButtonAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C6455D20E329DE002D1AF7 /* CYTabbarButtonAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTabbarButtonAnimationTests.m; sourceTree = "<group>"; };
+		67C6455F20E329DE002D1AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C6456420E329DE002D1AF7 /* CYTabbarButtonAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYTabbarButtonAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C6456820E329DE002D1AF7 /* CYTabbarButtonAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTabbarButtonAnimationUITests.m; sourceTree = "<group>"; };
+		67C6456A20E329DE002D1AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C6457920E32A6D002D1AF7 /* CYTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYTabBarViewController.h; sourceTree = "<group>"; };
+		67C6457A20E32A6D002D1AF7 /* CYTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTabBarViewController.m; sourceTree = "<group>"; };
+		67C6457C20E32AD4002D1AF7 /* CYNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYNavigationViewController.h; sourceTree = "<group>"; };
+		67C6457D20E32AD4002D1AF7 /* CYNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYNavigationViewController.m; sourceTree = "<group>"; };
+		67C6457F20E32B66002D1AF7 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		67C6458020E32B66002D1AF7 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		67C6458220E33ADB002D1AF7 /* UITabBarController+CYTabBarAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+CYTabBarAnimation.h"; sourceTree = "<group>"; };
+		67C6458320E33ADB002D1AF7 /* UITabBarController+CYTabBarAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+CYTabBarAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67C6453E20E329DC002D1AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C6455620E329DE002D1AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C6456120E329DE002D1AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67C6453820E329DC002D1AF7 = {
+			isa = PBXGroup;
+			children = (
+				67C6454320E329DC002D1AF7 /* CYTabbarButtonAnimation */,
+				67C6455C20E329DE002D1AF7 /* CYTabbarButtonAnimationTests */,
+				67C6456720E329DE002D1AF7 /* CYTabbarButtonAnimationUITests */,
+				67C6454220E329DC002D1AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67C6454220E329DC002D1AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67C6454120E329DC002D1AF7 /* CYTabbarButtonAnimation.app */,
+				67C6455920E329DE002D1AF7 /* CYTabbarButtonAnimationTests.xctest */,
+				67C6456420E329DE002D1AF7 /* CYTabbarButtonAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67C6454320E329DC002D1AF7 /* CYTabbarButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				67C6454420E329DC002D1AF7 /* AppDelegate.h */,
+				67C6454520E329DC002D1AF7 /* AppDelegate.m */,
+				67C6454720E329DC002D1AF7 /* ViewController.h */,
+				67C6454820E329DC002D1AF7 /* ViewController.m */,
+				67C6457920E32A6D002D1AF7 /* CYTabBarViewController.h */,
+				67C6457A20E32A6D002D1AF7 /* CYTabBarViewController.m */,
+				67C6458220E33ADB002D1AF7 /* UITabBarController+CYTabBarAnimation.h */,
+				67C6458320E33ADB002D1AF7 /* UITabBarController+CYTabBarAnimation.m */,
+				67C6457C20E32AD4002D1AF7 /* CYNavigationViewController.h */,
+				67C6457D20E32AD4002D1AF7 /* CYNavigationViewController.m */,
+				67C6458020E32B66002D1AF7 /* UIImage+Image.h */,
+				67C6457F20E32B66002D1AF7 /* UIImage+Image.m */,
+				67C6454A20E329DC002D1AF7 /* Main.storyboard */,
+				67C6454D20E329DE002D1AF7 /* Assets.xcassets */,
+				67C6454F20E329DE002D1AF7 /* LaunchScreen.storyboard */,
+				67C6455220E329DE002D1AF7 /* Info.plist */,
+				67C6455320E329DE002D1AF7 /* main.m */,
+			);
+			path = CYTabbarButtonAnimation;
+			sourceTree = "<group>";
+		};
+		67C6455C20E329DE002D1AF7 /* CYTabbarButtonAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				67C6455D20E329DE002D1AF7 /* CYTabbarButtonAnimationTests.m */,
+				67C6455F20E329DE002D1AF7 /* Info.plist */,
+			);
+			path = CYTabbarButtonAnimationTests;
+			sourceTree = "<group>";
+		};
+		67C6456720E329DE002D1AF7 /* CYTabbarButtonAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67C6456820E329DE002D1AF7 /* CYTabbarButtonAnimationUITests.m */,
+				67C6456A20E329DE002D1AF7 /* Info.plist */,
+			);
+			path = CYTabbarButtonAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67C6454020E329DC002D1AF7 /* CYTabbarButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C6456D20E329DE002D1AF7 /* Build configuration list for PBXNativeTarget "CYTabbarButtonAnimation" */;
+			buildPhases = (
+				67C6453D20E329DC002D1AF7 /* Sources */,
+				67C6453E20E329DC002D1AF7 /* Frameworks */,
+				67C6453F20E329DC002D1AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYTabbarButtonAnimation;
+			productName = CYTabbarButtonAnimation;
+			productReference = 67C6454120E329DC002D1AF7 /* CYTabbarButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67C6455820E329DE002D1AF7 /* CYTabbarButtonAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C6457020E329DE002D1AF7 /* Build configuration list for PBXNativeTarget "CYTabbarButtonAnimationTests" */;
+			buildPhases = (
+				67C6455520E329DE002D1AF7 /* Sources */,
+				67C6455620E329DE002D1AF7 /* Frameworks */,
+				67C6455720E329DE002D1AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C6455B20E329DE002D1AF7 /* PBXTargetDependency */,
+			);
+			name = CYTabbarButtonAnimationTests;
+			productName = CYTabbarButtonAnimationTests;
+			productReference = 67C6455920E329DE002D1AF7 /* CYTabbarButtonAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67C6456320E329DE002D1AF7 /* CYTabbarButtonAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C6457320E329DE002D1AF7 /* Build configuration list for PBXNativeTarget "CYTabbarButtonAnimationUITests" */;
+			buildPhases = (
+				67C6456020E329DE002D1AF7 /* Sources */,
+				67C6456120E329DE002D1AF7 /* Frameworks */,
+				67C6456220E329DE002D1AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C6456620E329DE002D1AF7 /* PBXTargetDependency */,
+			);
+			name = CYTabbarButtonAnimationUITests;
+			productName = CYTabbarButtonAnimationUITests;
+			productReference = 67C6456420E329DE002D1AF7 /* CYTabbarButtonAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67C6453920E329DC002D1AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "王超亚";
+				TargetAttributes = {
+					67C6454020E329DC002D1AF7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					67C6455820E329DE002D1AF7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 67C6454020E329DC002D1AF7;
+					};
+					67C6456320E329DE002D1AF7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 67C6454020E329DC002D1AF7;
+					};
+				};
+			};
+			buildConfigurationList = 67C6453C20E329DC002D1AF7 /* Build configuration list for PBXProject "CYTabbarButtonAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67C6453820E329DC002D1AF7;
+			productRefGroup = 67C6454220E329DC002D1AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67C6454020E329DC002D1AF7 /* CYTabbarButtonAnimation */,
+				67C6455820E329DE002D1AF7 /* CYTabbarButtonAnimationTests */,
+				67C6456320E329DE002D1AF7 /* CYTabbarButtonAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67C6453F20E329DC002D1AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6455120E329DE002D1AF7 /* LaunchScreen.storyboard in Resources */,
+				67C6454E20E329DE002D1AF7 /* Assets.xcassets in Resources */,
+				67C6454C20E329DC002D1AF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C6455720E329DE002D1AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C6456220E329DE002D1AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67C6453D20E329DC002D1AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6454920E329DC002D1AF7 /* ViewController.m in Sources */,
+				67C6455420E329DE002D1AF7 /* main.m in Sources */,
+				67C6457B20E32A6D002D1AF7 /* CYTabBarViewController.m in Sources */,
+				67C6458120E32B66002D1AF7 /* UIImage+Image.m in Sources */,
+				67C6458420E33ADB002D1AF7 /* UITabBarController+CYTabBarAnimation.m in Sources */,
+				67C6454620E329DC002D1AF7 /* AppDelegate.m in Sources */,
+				67C6457E20E32AD4002D1AF7 /* CYNavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C6455520E329DE002D1AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6455E20E329DE002D1AF7 /* CYTabbarButtonAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C6456020E329DE002D1AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6456920E329DE002D1AF7 /* CYTabbarButtonAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67C6455B20E329DE002D1AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C6454020E329DC002D1AF7 /* CYTabbarButtonAnimation */;
+			targetProxy = 67C6455A20E329DE002D1AF7 /* PBXContainerItemProxy */;
+		};
+		67C6456620E329DE002D1AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C6454020E329DC002D1AF7 /* CYTabbarButtonAnimation */;
+			targetProxy = 67C6456520E329DE002D1AF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67C6454A20E329DC002D1AF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C6454B20E329DC002D1AF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67C6454F20E329DE002D1AF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C6455020E329DE002D1AF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67C6456B20E329DE002D1AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67C6456C20E329DE002D1AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67C6456E20E329DE002D1AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabbarButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.CYTabbarButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67C6456F20E329DE002D1AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabbarButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.CYTabbarButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67C6457120E329DE002D1AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabbarButtonAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.CYTabbarButtonAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYTabbarButtonAnimation.app/CYTabbarButtonAnimation";
+			};
+			name = Debug;
+		};
+		67C6457220E329DE002D1AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabbarButtonAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.CYTabbarButtonAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYTabbarButtonAnimation.app/CYTabbarButtonAnimation";
+			};
+			name = Release;
+		};
+		67C6457420E329DE002D1AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabbarButtonAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.CYTabbarButtonAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYTabbarButtonAnimation;
+			};
+			name = Debug;
+		};
+		67C6457520E329DE002D1AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabbarButtonAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.CYTabbarButtonAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYTabbarButtonAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67C6453C20E329DC002D1AF7 /* Build configuration list for PBXProject "CYTabbarButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C6456B20E329DE002D1AF7 /* Debug */,
+				67C6456C20E329DE002D1AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C6456D20E329DE002D1AF7 /* Build configuration list for PBXNativeTarget "CYTabbarButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C6456E20E329DE002D1AF7 /* Debug */,
+				67C6456F20E329DE002D1AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C6457020E329DE002D1AF7 /* Build configuration list for PBXNativeTarget "CYTabbarButtonAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C6457120E329DE002D1AF7 /* Debug */,
+				67C6457220E329DE002D1AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C6457320E329DE002D1AF7 /* Build configuration list for PBXNativeTarget "CYTabbarButtonAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C6457420E329DE002D1AF7 /* Debug */,
+				67C6457520E329DE002D1AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67C6453920E329DC002D1AF7 /* Project object */;
+}
